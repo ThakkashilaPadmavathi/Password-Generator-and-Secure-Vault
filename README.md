@@ -6,4 +6,4 @@ Live Demo:
 
 Frontend: https://password-generator-and-secure-vault.vercel.app/login
 
-Backend API:
+Backend API: https://password-generator-and-secure-vault.onrender.com
