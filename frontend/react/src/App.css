@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2, h3, h4 {
+  margin: 0.5em 0;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+input, textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #333;
+  color: white;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+nav button {
+  background-color: #f44336;
+}
+
+nav button:hover {
+  background-color: #d32f2f;
+}
+
+/* Vault List */
+.vault-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.vault-item p {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Password Generator */
+.password-generator {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+.password-generator input[type="range"] {
+  width: 150px;
+}
+
+/* Copy Button */
+.copy-btn {
+  background-color: #2196f3;
+  color: white;
+  padding: 4px 8px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.copy-btn:hover {
+  background-color: #1976d2;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  form {
+    gap: 8px;
+  }
+
+  .password-generator {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
