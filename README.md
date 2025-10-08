@@ -4,6 +4,6 @@ A secure web application to generate strong passwords and store them safely in a
 
 Live Demo:
 
-Frontend: https://password-generator-and-secure-vault.vercel.app/login
+Frontend: https://password-generator-and-secure-vault.vercel.app/
 
 Backend API: https://password-generator-and-secure-vault.onrender.com
